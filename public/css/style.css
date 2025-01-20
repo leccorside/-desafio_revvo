@@ -9,6 +9,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a08c1e735820966ac71e2c4ea893754a2d0edfde
 /* Cabeçalho */
 header {
     display: flex;
@@ -57,6 +61,21 @@ header nav .user-info img {
     height: 500px;
 }
 
+<<<<<<< HEAD
+=======
+header nav input {
+    padding: 5px;
+    width: 200px;
+}
+
+.slideshow {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+>>>>>>> a08c1e735820966ac71e2c4ea893754a2d0edfde
 .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -71,6 +90,10 @@ header nav .user-info img {
     width: 100%;
     height: 500px;
     object-fit: cover;
+<<<<<<< HEAD
+=======
+    display: block;
+>>>>>>> a08c1e735820966ac71e2c4ea893754a2d0edfde
 }
 
 .overlay {
@@ -95,6 +118,14 @@ header nav .user-info img {
     font-size: 17px;
     font-weight: 300;
     line-height: 25px;
+<<<<<<< HEAD
+=======
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+>>>>>>> a08c1e735820966ac71e2c4ea893754a2d0edfde
 }
 
 button.prev, button.next {
@@ -154,6 +185,10 @@ button.next {
     border: 1px dashed #ccc;
     color: gray;
     text-align: center;
+<<<<<<< HEAD
 }
 
 
+=======
+}
+>>>>>>> a08c1e735820966ac71e2c4ea893754a2d0edfde

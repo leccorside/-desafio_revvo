@@ -12,11 +12,30 @@
                 </div>
             </div>
         <?php endforeach; ?>
+<<<<<<< HEAD
+=======
+
+<div class="slideshow">
+    <div class="slides">
+        <div class="slide active">
+            <img src="public/images/slide1.jpg" alt="Slide 1">
+            <div class="overlay">Lorem ipsum dolor sit amet.</div>
+        </div>
+        <div class="slide">
+            <img src="public/images/slide2.jpg" alt="Slide 2">
+            <div class="overlay">Pellentesque malesuada nunc.</div>
+        </div>
+
+>>>>>>> a08c1e735820966ac71e2c4ea893754a2d0edfde
     </div>
     <button class="prev">&lt;</button>
     <button class="next">&gt;</button>
 </div>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a08c1e735820966ac71e2c4ea893754a2d0edfde
 <!-- Lista de Cursos -->
 <h2>Meus Cursos</h2>
 <div class="courses">
@@ -28,6 +47,10 @@
                 <?= implode(' ', array_slice(explode(' ', $course['description']), 0, 10)) . (str_word_count($course['description']) > 10 ? '...' : '') ?>
             </p>
 
+<<<<<<< HEAD
+=======
+            <p><?= $course['description'] ?></p>
+>>>>>>> a08c1e735820966ac71e2c4ea893754a2d0edfde
             <button>Ver Curso</button>
         </div>
     <?php endforeach; ?>
