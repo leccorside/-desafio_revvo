@@ -12,7 +12,7 @@
                 </div>
             </div>
         <?php endforeach; ?>
-=======
+
 <div class="slideshow">
     <div class="slides">
         <div class="slide active">
@@ -23,13 +23,13 @@
             <img src="public/images/slide2.jpg" alt="Slide 2">
             <div class="overlay">Pellentesque malesuada nunc.</div>
         </div>
->>>>>>> 9ab2e4cba9df0870554b2d662d586f795552c07b
+
     </div>
     <button class="prev">&lt;</button>
     <button class="next">&gt;</button>
 </div>
 
-<<<<<<< HEAD
+
 <!-- Lista de Cursos -->
 <h2>Meus Cursos</h2>
 <div class="courses">

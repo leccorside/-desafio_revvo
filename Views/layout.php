@@ -14,7 +14,7 @@
     <script src="public/js/script.js" defer></script>
 </head>
 <body>
-<<<<<<< HEAD
+
     <!-- Cabeçalho -->
     <header>
         <div class="logo">
@@ -40,7 +40,7 @@
             <p>© Copyright 2025 - Todos os direitos reservados.</p>
             <p>Contato: contato@leolearning.com | (21) 98765-3434</p>
         </div>
-=======
+
     <header>
         <h1>Leo Cursos</h1>
         <nav>
@@ -53,7 +53,7 @@
     </main>
     <footer>
         <p>© 2025 Leo. Todos os direitos reservados.</p>
->>>>>>> 9ab2e4cba9df0870554b2d662d586f795552c07b
+
     </footer>
 </body>
 </html>

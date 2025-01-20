@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-<<<<<<< HEAD
+
 /* Cabeçalho */
 header {
     display: flex;
@@ -56,7 +56,8 @@ header nav .user-info img {
     overflow: hidden;
     max-width: 100%;
     height: 500px;
-=======
+}
+
 header nav input {
     padding: 5px;
     width: 200px;
