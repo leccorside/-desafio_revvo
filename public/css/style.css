@@ -9,7 +9,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 /* Cabeçalho */
+=======
+>>>>>>> 9ab2e4cba9df0870554b2d662d586f795552c07b
 header {
     display: flex;
     justify-content: space-between;
@@ -19,6 +22,7 @@ header {
     color: white;
 }
 
+<<<<<<< HEAD
 header .logo h1 {
     font-size: 24px;
     color: #fff;
@@ -55,6 +59,18 @@ header nav .user-info img {
     overflow: hidden;
     max-width: 100%;
     height: 500px;
+=======
+header nav input {
+    padding: 5px;
+    width: 200px;
+}
+
+.slideshow {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 800px;
+>>>>>>> 9ab2e4cba9df0870554b2d662d586f795552c07b
 }
 
 .slides {
@@ -69,12 +85,17 @@ header nav .user-info img {
 
 .slide img {
     width: 100%;
+<<<<<<< HEAD
     height: 500px;
     object-fit: cover;
+=======
+    display: block;
+>>>>>>> 9ab2e4cba9df0870554b2d662d586f795552c07b
 }
 
 .overlay {
     position: absolute;
+<<<<<<< HEAD
     bottom: 35%;
     left: 5%;
     color: white;
@@ -95,6 +116,13 @@ header nav .user-info img {
     font-size: 17px;
     font-weight: 300;
     line-height: 25px;
+=======
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+>>>>>>> 9ab2e4cba9df0870554b2d662d586f795552c07b
 }
 
 button.prev, button.next {
@@ -155,5 +183,8 @@ button.next {
     color: gray;
     text-align: center;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9ab2e4cba9df0870554b2d662d586f795552c07b
