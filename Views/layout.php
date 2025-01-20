@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD de Cursos</title>
-=======
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciamento de Cursos</title>
->>>>>>> 9ab2e4cba9df0870554b2d662d586f795552c07b
     <link rel="stylesheet" href="public/css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="public/js/script.js" defer></script>

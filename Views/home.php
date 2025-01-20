@@ -1,5 +1,4 @@
 <?php ob_start(); ?>
-<<<<<<< HEAD
 <!-- Slideshow -->
 <div class="slideshow">
     <div class="slides">
@@ -32,22 +31,17 @@
 
 <<<<<<< HEAD
 <!-- Lista de Cursos -->
-=======
->>>>>>> 9ab2e4cba9df0870554b2d662d586f795552c07b
 <h2>Meus Cursos</h2>
 <div class="courses">
     <?php foreach ($courses as $course): ?>
         <div class="course-card">
             <img src="<?= $course['image'] ?>" alt="<?= $course['title'] ?>">
             <h3><?= $course['title'] ?></h3>
-<<<<<<< HEAD
             <p>
                 <?= implode(' ', array_slice(explode(' ', $course['description']), 0, 10)) . (str_word_count($course['description']) > 10 ? '...' : '') ?>
             </p>
 
-=======
             <p><?= $course['description'] ?></p>
->>>>>>> 9ab2e4cba9df0870554b2d662d586f795552c07b
             <button>Ver Curso</button>
         </div>
     <?php endforeach; ?>
